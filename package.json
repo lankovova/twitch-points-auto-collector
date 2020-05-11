@@ -1,0 +1,33 @@
+{
+  "name": "twitch-points-auto-collector",
+  "version": "1.0.0",
+  "description": "Browser extension that automatically collects twitch channel points for you",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "lint": "eslint src",
+    "build": "npm run lint --silent && npm run clean && babel src --out-dir dist --copy-files --presets=minify",
+    "build-dev": "npm run lint --silent && npm run clean && babel src --out-dir dist --copy-files"
+  },
+  "keywords": [
+    "twitch",
+    "auto",
+    "automatically",
+    "points",
+    "channel points",
+    "collector",
+    "clicker"
+  ],
+  "author": "Volodymyr Lanko <lanko.vova@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7"
+  }
+}
