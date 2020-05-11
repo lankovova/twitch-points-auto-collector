@@ -20,6 +20,7 @@
   ],
   "author": "Volodymyr Lanko <lanko.vova@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/lankovova/twitch-points-auto-collector",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
