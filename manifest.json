@@ -13,5 +13,6 @@
     "default_title": "Twitch auto points collector",
     "default_icon": "dist/icon.png"
   },
-  "permissions": ["storage"]
+  "permissions": ["storage"],
+  "description": "Automatically collects twitch channel points for you!"
 }
