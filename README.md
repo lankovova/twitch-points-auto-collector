@@ -1,6 +1,6 @@
 # Twitch auto points collector
 
-Automatically collects channel points for you!
+Automatically collects twitch channel points for you!
 
 ---
 
